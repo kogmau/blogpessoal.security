@@ -40,7 +40,7 @@ public class UsuarioController {
 	
 	@GetMapping("/all")
 	 public  ResponseEntity < List< UsuarioModel > > getAll (){
-        return  ResponseEntity . ok(usuarioRepository . findAll());
+        return  ResponseEntity.ok(usuarioRepository . findAll());
     }
 	
 	@PostMapping("/login")
